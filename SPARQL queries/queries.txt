@@ -1,0 +1,120 @@
+#Queries on the http://kg-course/network graph (regarding hero-network)
+
+#Query 1: Which 10 superheros have the most connections?
+
+PREFIX ken: <https://w3id.org/um/ken4256/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix graph: <http://kg-course/>
+
+select ?hero1 ?hero1_name (count(distinct ?hero2) as ?hero2_count)
+where {
+    GRAPH graph:network {
+        ?hero1 ken:playesWith ?hero2 ;
+               rdfs:label ?hero1_name.
+    }
+}
+group by ?hero1 ?hero1_name
+order by desc(?hero2_count)
+limit 10
+
+
+
+#Query 2 : Which heroes are the connections of Captain America (the one with the most connections)?
+PREFIX ken: <https://w3id.org/um/ken4256/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix graph: <http://kg-course/>
+
+select ?hero2 ?hero2_name
+where {
+    GRAPH graph:network {
+        ?hero1 ken:playesWith ?hero2 ;
+               rdfs:label ?hero1_name.
+        ?hero2 rdfs:label ?hero2_name.
+        filter( ?hero1_name = "CAPTAIN AMERICA"@en )
+    }
+}
+
+
+##############################xx
+
+#Queries about the http://kg-course/movieCharacters graph
+
+#Query 1: Which 6 movies have the highest gross Worldwide?
+PREFIX ken: <https://w3id.org/um/ken4256/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+prefix graph: <http://kg-course/>
+
+select ?movieName ?grossWorldwide
+where {
+    GRAPH graph:movieCharacters {
+        ?movie a schema:Movie;
+               ken:grossWorldwide ?grossWorldwide;
+				rdfs:label ?movieName.
+    }
+}
+order by desc(?grossWorldwide)
+
+limit 6
+
+
+#Query 2: Which heroes play in the movie which has the highest gross Worldwide?
+PREFIX ken: <https://w3id.org/um/ken4256/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX cbo: <http://comicmeta.org/cbo/>
+prefix graph: <http://kg-course/>
+
+select ?movie ?hero 
+where {
+    graph graph:movieCharacters {
+    ?hero a cbo:Character;
+          rdfs:label ?hero_name.
+    ?movie ken:mainCharacters ?hero.
+    {
+    select ?movie_s ?grossWorldwide
+    where {
+        GRAPH graph:movieCharacters {
+            ?movie_s a schema:Movie;
+                   ken:grossWorldwide ?grossWorldwide;
+                    rdfs:label ?movieName.
+        }
+    }
+    order by desc(?grossWorldwide)
+    limit 1
+    }
+        filter(?movie_s = ?movie)
+    }}
+
+
+
+#Query 3: What is the alignment of the heros that play in the movie that has the highest gross Worlwide?
+PREFIX ken: <https://w3id.org/um/ken4256/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX cbo: <http://comicmeta.org/cbo/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+prefix graph: <http://kg-course/>
+
+select ?movie ?hero_name ?alignment
+where {
+
+    ?hero a cbo:Character;
+          rdfs:label ?hero_name;
+        ken:alignment ?alignment.
+    ?movie ken:mainCharacters ?hero.
+    {
+    select ?movie_s ?grossWorldwide
+    where {
+        GRAPH graph:movieCharacters {
+            ?movie_s a schema:Movie;
+                   ken:grossWorldwide ?grossWorldwide;
+                    rdfs:label ?movieName.
+        }
+    }
+    order by desc(?grossWorldwide)
+    limit 1
+    }
+        filter(?movie_s = ?movie)
+    }
+group by ?movie ?hero_name ?alignment

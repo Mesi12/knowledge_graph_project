@@ -1,0 +1,369 @@
+{
+    "movies": [
+      {
+        "id": "iron_man",
+        "original title": "Iron Man",
+        "main characters": [
+          "Iron Man",
+          "War Machine",
+          "Obadiah Stane",
+          "Pepper Potts",
+          "Christine Everhart",
+          "Yinsen",
+          "Raza",
+          "Agent Coulson",
+          "General Gabriel",
+          "Abu Bakaar",
+          "Vision",
+          "Hogan"
+        ]
+      },
+      {
+        "id": "the_incredible_hulk",
+        "original title": "The Incredible Hulk",
+        "main characters": [
+          "Hulk",
+          "Betty Ross",
+          "Emil Blonsky",
+          "General 'Thunderbolt' Ross",
+          "Samuel Sterns",
+          "Leonard",
+          "Major Kathleen Sparr",
+          "General Joe Greller",
+          "Stanley"
+        ]
+      },
+      {
+        "id": "iron_man_2",
+        "original title": "Iron Man 2",
+        "main characters": [
+            "Iron Man",
+            "Pepper Potts",
+            "War Machine",
+            "Black Widow",
+            "Justin Hammer",
+            "Ivan Vanko",
+            "Nick Fury",
+            "Agent Coulson",
+            "Howard Stark",
+            "Senator Stern",
+            "Christine Everhart",
+            "Happy Hogan"
+        ]
+      },
+      {
+        "id": "thor",
+        "original title": "Thor",
+        "main characters": [
+            "Thor",
+            "Jane Foster",
+            "Loki",
+            "Odin",
+            "Erik Selvig",
+            "Darcy Lewis",
+            "Agent Coulson",
+            "King Laufey",
+            "Heimdall",
+            "Volstagg",
+            "Hogun",
+            "Fandral",
+            "Sif",
+            "Frigga",
+            "Isabela Alvarez",
+            "Agent Sitwell"
+        ]
+      },
+      {
+        "id": "captain_america_the_first_avenger",
+        "original title": "Captain America: The First Avenger",
+        "main characters": [
+            "Captain America",
+            "Peggy Carter",
+            "James Buchanan 'Bucky' Barnes",
+            "Colonel Chester Phillips",
+            "Johann Schmidt/Red Skull",
+            "Howard Stark",
+            "Heinz Kruger",
+            "Dr. Abraham Erskine",
+            "Nick Fury",
+            "Dr. Arnim Zola"
+        ]
+      },
+      {
+        "id": "the_avengers",
+        "original title": "The Avengers",
+        "main characters": [
+            "Iron Man",
+            "Captain America",
+            "Hulk",
+            "Thor",
+            "Black Widow",
+            "Hawkeye",
+            "Loki",
+            "Agent Phil Coulson",
+            "Agent Maria Hill",
+            "Selvig",
+            "Nick Fury",
+            "Pepper Potts"
+        ]
+      },
+      {
+        "id": "iron_man_3",
+        "original title": "Iron Man 3",
+        "main characters": [
+            "Iron Man",
+            "Pepper Potts",
+            "War Machine",
+            "Aldrich Killian",
+            "Maya Hansen",
+            "Happy Hogan",
+            "Trevor Slattery",
+            "Savin",
+            "Brandt"
+        ]
+      },
+      {
+        "id": "thor_the_dark_world",
+        "original title": "Thor: The Dark World",
+        "main characters": [
+            "Thor",
+            "Jane Foster",
+            "Loki",
+            "Odin",
+            "Malekith",
+            "Sif",
+            "Fandral",
+            "Volstagg",
+            "Hogun",
+            "Heimdall",
+            "Frigga"
+        ]
+      },
+      {
+        "id": "captain_america_the_winter_soldier",
+        "original title": "Captain America: The Winter Soldier",
+        "main characters": [
+            "Thor",
+            "Jane Foster",
+            "Loki",
+            "Odin",
+            "Malekith",
+            "Sif",
+            "Fandral",
+            "Volstagg",
+            "Hogun",
+            "Heimdall",
+            "Frigga"
+        ]
+      },
+      {
+        "id": "guardians_of_the_galaxy",
+        "original title": "Guardians of the Galaxy",
+        "main characters": [
+            "Star-Lord",
+            "Drax",
+            "Gamora",
+            "Carina",
+            "Nebula"
+        ]
+      },
+      {
+        "id": "avengers_age_of_ultron",
+        "original title": "Avengers: Age of Ultron",
+        "main characters": [
+            "Iron Man",
+            "Captain America",
+            "Hulk",
+            "Nick Fury",
+            "Quicksilver",
+            "Thor",
+            "Ultron",
+            "Black Widow",
+            "Hawkeye",
+            "War Machine",
+            "Scarlet Witch",
+            "Vision"
+        ]
+      },
+      {
+        "id": "ant_man",
+        "original title": "Ant-Man",
+        "main characters": [
+            "Ant-Man",
+            "Yellowjacket",
+            "Paxton",
+            "Falcon",
+            "Hope van Dyne"
+        ]
+      },
+      {
+        "id": "captain_america_civil_war",
+        "original title": "Captain America: Civil War",
+        "main characters": [
+            "Iron Man",
+            "Black Widow",
+            "Winter Soldier",
+            "Falcon",
+            "Hawkeye",
+            "War Machine",
+            "Scarlet Witch",
+            "Ant-Man",
+            "Black Panther",
+            "Spider-Man",
+            "Vision",
+            "Captain America"
+        ]
+      },
+      {
+        "id": "doctor_strange",
+        "original title": "Doctor Strange",
+        "main characters": [
+            "Doctor Strange",
+            "Mordo",
+            "Kaecilius",
+            "Wong",
+            "Hamir"
+        ]
+      },
+      {
+        "id": "guardians_of_the_galaxy_vol_2",
+        "original title": "Guardians of the Galaxy Vol. 2",
+        "main characters": [
+            "Star-Lord",
+            "Gamora",
+            "Drax",
+            "Yondu",
+            "On-Set Rocket",
+            "Nebula",
+            "Mantis",
+            "Ego"
+        ]
+      },
+      {
+        "id": "spider_man_homecoming",
+        "original title": "Spider-Man: Homecoming",
+        "main characters": [
+            "Spider-Man",
+            "Iron Man",
+            "Vulture",
+            "Flash",
+            "Liz",
+            "May Parker"
+        ]
+      },
+      {
+        "id": "thor_ragnarok",
+        "original title": "Thor: Ragnarok",
+        "main characters": [
+            "Thor",
+            "Loki",
+            "Hela",
+            "Valkyrie",
+            "Hulk",
+            "Grandmaster",
+            "Odin",
+            "Heimdall",
+            "Skurge",
+            "Doctor Strange"
+        ]
+      },
+      {
+        "id": "black_panther",
+        "original title": "Black Panther",
+        "main characters": [
+            "Black Panther",
+            "Erik Killmonger",
+            "Nakia",
+            "Okoye",
+            "Zuri",
+            "Shuri",
+            "Ramonda"
+        ]
+      },
+      {
+        "id": "avengers_infinity_war",
+        "original title": "Avengers: Infinity War",
+        "main characters": [
+            "Iron Man",
+            "Thor",
+            "Captain America",
+            "Hulk",
+            "Loki",
+            "Vision",
+            "Doctor Strange",
+            "Scarlet Witch",
+            "Winter Soldier",
+            "Black Widow",
+            "Spider-Man",
+            "Black Panther",
+            "War Machine",
+            "Nebula",
+            "Gamora"
+        ]
+      },
+      {
+        "id": "ant_man_and_the_wasp",
+        "original title": "Ant-Man and the Wasp",
+        "main characters": [
+            "Ant-Man",
+            "Wasp",
+            "Luis",
+            "Paxton",
+            "Sonny Burch",
+            "Cassie",
+            "Ghost",
+            "Maggie"
+        ]
+      },
+      {
+        "id": "captain_marvel",
+        "original title": "Captain Marvel",
+        "main characters": [
+            "Captain Marvel",
+            "Nick Fury",
+            "Yon-Rogg",
+            "Ronan",
+            "Keller",
+            "Korath",
+            "Minn-Erva",
+            "Agent Coulson"
+        ]
+      },
+      {
+        "id": "avengers_endgame",
+        "original title": "Avengers: Endgame",
+        "main characters": [
+            "Iron Man",
+            "Captain America",
+            "Hulk",
+            "Thor",
+            "Hawkeye",
+            "Loki",
+            "Doctor Strange",
+            "Wasp",
+            "Scarlet Witch",
+            "Black Widow",
+            "War Machine",
+            "Falcon",
+            "Spider-Man",
+            "Black Panther",
+            "Ant-Man"
+
+        ]
+      },
+      {
+        "id": "spider_man_far_from_home",
+        "original title": "Spider-Man: Far from Home",
+        "main characters": [
+            "Spider-Man",
+            "Nick Fury",
+            "Mysterio",
+            "May Parker",
+            "Happy Hogan",
+            "Flash",
+            "Betty Brant",
+            "Ned Leeds"
+        ]
+      }
+    ]
+}

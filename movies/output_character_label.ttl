@@ -1,0 +1,349 @@
+@prefix cbo: <http://comicmeta.org/cbo/> .
+@prefix ken_characters: <https://w3id.org/um/ken4256/characters/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://w3id.org/um/ken4256/characters/Abu%20Bakaar> a cbo:Character ;
+    rdfs:label "Abu Bakaar"@en .
+
+<https://w3id.org/um/ken4256/characters/Agent%20Coulson> a cbo:Character ;
+    rdfs:label "Agent Coulson"@en .
+
+<https://w3id.org/um/ken4256/characters/Agent%20Maria%20Hill> a cbo:Character ;
+    rdfs:label "Agent Maria Hill"@en .
+
+<https://w3id.org/um/ken4256/characters/Agent%20Phil%20Coulson> a cbo:Character ;
+    rdfs:label "Agent Phil Coulson"@en .
+
+<https://w3id.org/um/ken4256/characters/Agent%20Sitwell> a cbo:Character ;
+    rdfs:label "Agent Sitwell"@en .
+
+<https://w3id.org/um/ken4256/characters/Aldrich%20Killian> a cbo:Character ;
+    rdfs:label "Aldrich Killian"@en .
+
+ken_characters:Ant-Man a cbo:Character ;
+    rdfs:label "Ant-Man"@en .
+
+<https://w3id.org/um/ken4256/characters/Betty%20Brant> a cbo:Character ;
+    rdfs:label "Betty Brant"@en .
+
+<https://w3id.org/um/ken4256/characters/Betty%20Ross> a cbo:Character ;
+    rdfs:label "Betty Ross"@en .
+
+<https://w3id.org/um/ken4256/characters/Black%20Panther> a cbo:Character ;
+    rdfs:label "Black Panther"@en .
+
+<https://w3id.org/um/ken4256/characters/Black%20Widow> a cbo:Character ;
+    rdfs:label "Black Widow"@en .
+
+ken_characters:Brandt a cbo:Character ;
+    rdfs:label "Brandt"@en .
+
+<https://w3id.org/um/ken4256/characters/Captain%20America> a cbo:Character ;
+    rdfs:label "Captain America"@en .
+
+<https://w3id.org/um/ken4256/characters/Captain%20Marvel> a cbo:Character ;
+    rdfs:label "Captain Marvel"@en .
+
+ken_characters:Carina a cbo:Character ;
+    rdfs:label "Carina"@en .
+
+ken_characters:Cassie a cbo:Character ;
+    rdfs:label "Cassie"@en .
+
+<https://w3id.org/um/ken4256/characters/Christine%20Everhart> a cbo:Character ;
+    rdfs:label "Christine Everhart"@en .
+
+<https://w3id.org/um/ken4256/characters/Colonel%20Chester%20Phillips> a cbo:Character ;
+    rdfs:label "Colonel Chester Phillips"@en .
+
+<https://w3id.org/um/ken4256/characters/Darcy%20Lewis> a cbo:Character ;
+    rdfs:label "Darcy Lewis"@en .
+
+<https://w3id.org/um/ken4256/characters/Doctor%20Strange> a cbo:Character ;
+    rdfs:label "Doctor Strange"@en .
+
+<https://w3id.org/um/ken4256/characters/Dr.%20Abraham%20Erskine> a cbo:Character ;
+    rdfs:label "Dr. Abraham Erskine"@en .
+
+<https://w3id.org/um/ken4256/characters/Dr.%20Arnim%20Zola> a cbo:Character ;
+    rdfs:label "Dr. Arnim Zola"@en .
+
+ken_characters:Drax a cbo:Character ;
+    rdfs:label "Drax"@en .
+
+ken_characters:Ego a cbo:Character ;
+    rdfs:label "Ego"@en .
+
+<https://w3id.org/um/ken4256/characters/Emil%20Blonsky> a cbo:Character ;
+    rdfs:label "Emil Blonsky"@en .
+
+<https://w3id.org/um/ken4256/characters/Erik%20Killmonger> a cbo:Character ;
+    rdfs:label "Erik Killmonger"@en .
+
+<https://w3id.org/um/ken4256/characters/Erik%20Selvig> a cbo:Character ;
+    rdfs:label "Erik Selvig"@en .
+
+ken_characters:Falcon a cbo:Character ;
+    rdfs:label "Falcon"@en .
+
+ken_characters:Fandral a cbo:Character ;
+    rdfs:label "Fandral"@en .
+
+ken_characters:Flash a cbo:Character ;
+    rdfs:label "Flash"@en .
+
+ken_characters:Frigga a cbo:Character ;
+    rdfs:label "Frigga"@en .
+
+ken_characters:Gamora a cbo:Character ;
+    rdfs:label "Gamora"@en .
+
+<https://w3id.org/um/ken4256/characters/General%20%27Thunderbolt%27%20Ross> a cbo:Character ;
+    rdfs:label "General 'Thunderbolt' Ross"@en .
+
+<https://w3id.org/um/ken4256/characters/General%20Gabriel> a cbo:Character ;
+    rdfs:label "General Gabriel"@en .
+
+<https://w3id.org/um/ken4256/characters/General%20Joe%20Greller> a cbo:Character ;
+    rdfs:label "General Joe Greller"@en .
+
+ken_characters:Ghost a cbo:Character ;
+    rdfs:label "Ghost"@en .
+
+ken_characters:Grandmaster a cbo:Character ;
+    rdfs:label "Grandmaster"@en .
+
+ken_characters:Hamir a cbo:Character ;
+    rdfs:label "Hamir"@en .
+
+<https://w3id.org/um/ken4256/characters/Happy%20Hogan> a cbo:Character ;
+    rdfs:label "Happy Hogan"@en .
+
+ken_characters:Hawkeye a cbo:Character ;
+    rdfs:label "Hawkeye"@en .
+
+ken_characters:Heimdall a cbo:Character ;
+    rdfs:label "Heimdall"@en .
+
+<https://w3id.org/um/ken4256/characters/Heinz%20Kruger> a cbo:Character ;
+    rdfs:label "Heinz Kruger"@en .
+
+ken_characters:Hela a cbo:Character ;
+    rdfs:label "Hela"@en .
+
+ken_characters:Hogan a cbo:Character ;
+    rdfs:label "Hogan"@en .
+
+ken_characters:Hogun a cbo:Character ;
+    rdfs:label "Hogun"@en .
+
+<https://w3id.org/um/ken4256/characters/Hope%20van%20Dyne> a cbo:Character ;
+    rdfs:label "Hope van Dyne"@en .
+
+<https://w3id.org/um/ken4256/characters/Howard%20Stark> a cbo:Character ;
+    rdfs:label "Howard Stark"@en .
+
+ken_characters:Hulk a cbo:Character ;
+    rdfs:label "Hulk"@en .
+
+<https://w3id.org/um/ken4256/characters/Iron%20Man> a cbo:Character ;
+    rdfs:label "Iron Man"@en .
+
+<https://w3id.org/um/ken4256/characters/Isabela%20Alvarez> a cbo:Character ;
+    rdfs:label "Isabela Alvarez"@en .
+
+<https://w3id.org/um/ken4256/characters/Ivan%20Vanko> a cbo:Character ;
+    rdfs:label "Ivan Vanko"@en .
+
+<https://w3id.org/um/ken4256/characters/James%20Buchanan%20%27Bucky%27%20Barnes> a cbo:Character ;
+    rdfs:label "James Buchanan 'Bucky' Barnes"@en .
+
+<https://w3id.org/um/ken4256/characters/Jane%20Foster> a cbo:Character ;
+    rdfs:label "Jane Foster"@en .
+
+<https://w3id.org/um/ken4256/characters/Johann%20Schmidt%2FRed%20Skull> a cbo:Character ;
+    rdfs:label "Johann Schmidt/Red Skull"@en .
+
+<https://w3id.org/um/ken4256/characters/Justin%20Hammer> a cbo:Character ;
+    rdfs:label "Justin Hammer"@en .
+
+ken_characters:Kaecilius a cbo:Character ;
+    rdfs:label "Kaecilius"@en .
+
+ken_characters:Keller a cbo:Character ;
+    rdfs:label "Keller"@en .
+
+<https://w3id.org/um/ken4256/characters/King%20Laufey> a cbo:Character ;
+    rdfs:label "King Laufey"@en .
+
+ken_characters:Korath a cbo:Character ;
+    rdfs:label "Korath"@en .
+
+ken_characters:Leonard a cbo:Character ;
+    rdfs:label "Leonard"@en .
+
+ken_characters:Liz a cbo:Character ;
+    rdfs:label "Liz"@en .
+
+ken_characters:Loki a cbo:Character ;
+    rdfs:label "Loki"@en .
+
+ken_characters:Luis a cbo:Character ;
+    rdfs:label "Luis"@en .
+
+ken_characters:Maggie a cbo:Character ;
+    rdfs:label "Maggie"@en .
+
+<https://w3id.org/um/ken4256/characters/Major%20Kathleen%20Sparr> a cbo:Character ;
+    rdfs:label "Major Kathleen Sparr"@en .
+
+ken_characters:Malekith a cbo:Character ;
+    rdfs:label "Malekith"@en .
+
+ken_characters:Mantis a cbo:Character ;
+    rdfs:label "Mantis"@en .
+
+<https://w3id.org/um/ken4256/characters/May%20Parker> a cbo:Character ;
+    rdfs:label "May Parker"@en .
+
+<https://w3id.org/um/ken4256/characters/Maya%20Hansen> a cbo:Character ;
+    rdfs:label "Maya Hansen"@en .
+
+ken_characters:Minn-Erva a cbo:Character ;
+    rdfs:label "Minn-Erva"@en .
+
+ken_characters:Mordo a cbo:Character ;
+    rdfs:label "Mordo"@en .
+
+ken_characters:Mysterio a cbo:Character ;
+    rdfs:label "Mysterio"@en .
+
+ken_characters:Nakia a cbo:Character ;
+    rdfs:label "Nakia"@en .
+
+ken_characters:Nebula a cbo:Character ;
+    rdfs:label "Nebula"@en .
+
+<https://w3id.org/um/ken4256/characters/Ned%20Leeds> a cbo:Character ;
+    rdfs:label "Ned Leeds"@en .
+
+<https://w3id.org/um/ken4256/characters/Nick%20Fury> a cbo:Character ;
+    rdfs:label "Nick Fury"@en .
+
+<https://w3id.org/um/ken4256/characters/Obadiah%20Stane> a cbo:Character ;
+    rdfs:label "Obadiah Stane"@en .
+
+ken_characters:Odin a cbo:Character ;
+    rdfs:label "Odin"@en .
+
+ken_characters:Okoye a cbo:Character ;
+    rdfs:label "Okoye"@en .
+
+<https://w3id.org/um/ken4256/characters/On-Set%20Rocket> a cbo:Character ;
+    rdfs:label "On-Set Rocket"@en .
+
+ken_characters:Paxton a cbo:Character ;
+    rdfs:label "Paxton"@en .
+
+<https://w3id.org/um/ken4256/characters/Peggy%20Carter> a cbo:Character ;
+    rdfs:label "Peggy Carter"@en .
+
+<https://w3id.org/um/ken4256/characters/Pepper%20Potts> a cbo:Character ;
+    rdfs:label "Pepper Potts"@en .
+
+ken_characters:Quicksilver a cbo:Character ;
+    rdfs:label "Quicksilver"@en .
+
+ken_characters:Ramonda a cbo:Character ;
+    rdfs:label "Ramonda"@en .
+
+ken_characters:Raza a cbo:Character ;
+    rdfs:label "Raza"@en .
+
+ken_characters:Ronan a cbo:Character ;
+    rdfs:label "Ronan"@en .
+
+<https://w3id.org/um/ken4256/characters/Samuel%20Sterns> a cbo:Character ;
+    rdfs:label "Samuel Sterns"@en .
+
+ken_characters:Savin a cbo:Character ;
+    rdfs:label "Savin"@en .
+
+<https://w3id.org/um/ken4256/characters/Scarlet%20Witch> a cbo:Character ;
+    rdfs:label "Scarlet Witch"@en .
+
+ken_characters:Selvig a cbo:Character ;
+    rdfs:label "Selvig"@en .
+
+<https://w3id.org/um/ken4256/characters/Senator%20Stern> a cbo:Character ;
+    rdfs:label "Senator Stern"@en .
+
+ken_characters:Shuri a cbo:Character ;
+    rdfs:label "Shuri"@en .
+
+ken_characters:Sif a cbo:Character ;
+    rdfs:label "Sif"@en .
+
+ken_characters:Skurge a cbo:Character ;
+    rdfs:label "Skurge"@en .
+
+<https://w3id.org/um/ken4256/characters/Sonny%20Burch> a cbo:Character ;
+    rdfs:label "Sonny Burch"@en .
+
+ken_characters:Spider-Man a cbo:Character ;
+    rdfs:label "Spider-Man"@en .
+
+ken_characters:Stanley a cbo:Character ;
+    rdfs:label "Stanley"@en .
+
+ken_characters:Star-Lord a cbo:Character ;
+    rdfs:label "Star-Lord"@en .
+
+ken_characters:Thor a cbo:Character ;
+    rdfs:label "Thor"@en .
+
+<https://w3id.org/um/ken4256/characters/Trevor%20Slattery> a cbo:Character ;
+    rdfs:label "Trevor Slattery"@en .
+
+ken_characters:Ultron a cbo:Character ;
+    rdfs:label "Ultron"@en .
+
+ken_characters:Valkyrie a cbo:Character ;
+    rdfs:label "Valkyrie"@en .
+
+ken_characters:Vision a cbo:Character ;
+    rdfs:label "Vision"@en .
+
+ken_characters:Volstagg a cbo:Character ;
+    rdfs:label "Volstagg"@en .
+
+ken_characters:Vulture a cbo:Character ;
+    rdfs:label "Vulture"@en .
+
+<https://w3id.org/um/ken4256/characters/War%20Machine> a cbo:Character ;
+    rdfs:label "War Machine"@en .
+
+ken_characters:Wasp a cbo:Character ;
+    rdfs:label "Wasp"@en .
+
+<https://w3id.org/um/ken4256/characters/Winter%20Soldier> a cbo:Character ;
+    rdfs:label "Winter Soldier"@en .
+
+ken_characters:Wong a cbo:Character ;
+    rdfs:label "Wong"@en .
+
+ken_characters:Yellowjacket a cbo:Character ;
+    rdfs:label "Yellowjacket"@en .
+
+ken_characters:Yinsen a cbo:Character ;
+    rdfs:label "Yinsen"@en .
+
+ken_characters:Yon-Rogg a cbo:Character ;
+    rdfs:label "Yon-Rogg"@en .
+
+ken_characters:Yondu a cbo:Character ;
+    rdfs:label "Yondu"@en .
+
+ken_characters:Zuri a cbo:Character ;
+    rdfs:label "Zuri"@en .
+

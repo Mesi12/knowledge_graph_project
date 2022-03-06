@@ -1,0 +1,77 @@
+prefixes:
+  dbo: http://dbpedia.org/ontology/
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
+  schema: https://schema.org/
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  ken: https://w3id.org/um/ken4256/
+  wd: https://www.wikidata.org/wiki/
+  ken_company: https://w3id.org/um/ken4256/company/
+  cbo: http://comicmeta.org/cbo/
+  ken_movies: https://w3id.org/um/ken4256/movies/
+
+mappings:
+  movies:
+    sources:
+      - ['movie_id.csv~csv']
+    s: ken_movies:$(Movie ID)
+    po:
+      - [a, schema:Movie]
+      - [rdfs:label, $(Original Title), en~lang]
+      #company -> iri with ken_company namspace
+      - [schema:productionCompany, ken_company:$(Company)~iri]
+      #rate -> float
+      - [dbo:rating, $(Rate), xsd:float]
+      #metascore -> int
+      #Aggregate rating = The overall rating, based on a collection of reviews or ratings, of the item.
+      - [schema:aggregateRating, $(Metascore), xsd:Integer]
+      #minutes -> int
+      - [schema:duration, $(Minutes), xsd:Integer]
+      #release -> year (int)
+      - [wd:Q5449034, $(Release), xsd:Integer]
+      #budget
+      - [dbo:budget, $(Budget), xsd:float]
+      #opening weekend usa -> create own property, (int)
+      - [ken:openingWeekendUSA, $(Opening Weekend USA), xsd:Integer]
+      #gross usa -> create own property, (int)
+      - [ken:grossUSA, $(Gross USA), xsd:Integer]
+      #gross worldwide -> create own property, (int)
+      - [ken:grossWorldwide, $(Gross Worldwide), xsd:Integer]
+
+
+  #define own properties with the help of ken:ontology
+
+  openingWeekend:
+    sources:
+      - ['movie_id.csv~csv']
+    s: ken:ontology/openingWeekendUSA
+    po:
+      - [a, owl:DatatypeProperty]
+      - [rdfs:label, 'Opening Weekend USA', en~lang]
+      - [rdfs:domain, schema:Movie]
+      - [rdfs:range, xsd:Integer]
+      - [rdfs:comment, 'Profit of the movie (in $) during the opening weekend in the USA', en~lang]
+
+  grossUSA:
+    sources:
+      - ['movie_id.csv~csv']
+    s: ken:ontology/grossUSA
+    po:
+      - [a, owl:DatatypeProperty]
+      - [rdfs:label, 'Gross USA', en~lang]
+      - [rdfs:domain, schema:Movie]
+      - [rdfs:range, xsd:Integer]
+      - [rdfs:comment, 'Gross of the movie in the USA', en~lang]
+
+  grossWorldwide:
+    sources:
+      - ['movie_id.csv~csv']
+    s: ken:ontology/grossWorldwide
+    po:
+      - [a, owl:DatatypeProperty]
+      - [rdfs:label, 'Gross Worldwide', en~lang]
+      - [rdfs:domain, schema:Movie]
+      - [rdfs:range, xsd:Integer]
+      - [rdfs:comment, 'Gross of the movie Worldwide', en~lang]
+      

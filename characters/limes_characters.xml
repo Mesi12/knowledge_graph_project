@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LIMES SYSTEM "limes.dtd">
+<LIMES>
+  <PREFIX>
+    <NAMESPACE>http://www.w3.org/1999/02/22-rdf-syntax-ns#</NAMESPACE>
+    <LABEL>rdf</LABEL>
+  </PREFIX>
+  <PREFIX>
+    <NAMESPACE>http://www.w3.org/2000/01/rdf-schema#</NAMESPACE>
+    <LABEL>rdfs</LABEL>
+  </PREFIX>
+  <PREFIX>
+    <NAMESPACE>http://www.w3.org/2002/07/owl#</NAMESPACE>
+    <LABEL>owl</LABEL>
+  </PREFIX>
+  <PREFIX>
+    <NAMESPACE>http://dbpedia.org/ontology/</NAMESPACE>
+    <LABEL>dbo</LABEL>
+  </PREFIX>
+  <PREFIX>
+    <NAMESPACE>https://schema.org/</NAMESPACE>
+    <LABEL>schema</LABEL>
+  </PREFIX>
+  <PREFIX>
+      <NAMESPACE>http://worldbank.org/</NAMESPACE>
+      <LABEL>wb</LABEL>
+  </PREFIX>
+  <PREFIX>
+      <NAMESPACE>https://www.wikidata.org/wiki/</NAMESPACE>
+      <LABEL>wd</LABEL>
+  </PREFIX>
+  <PREFIX>
+      <NAMESPACE>http://www.w3.org/2004/02/skos/core#</NAMESPACE>
+      <LABEL>skos</LABEL>
+  </PREFIX>
+  <PREFIX>
+      <NAMESPACE>http://xmlns.com/foaf/0.1/</NAMESPACE>
+      <LABEL>foaf</LABEL>
+  </PREFIX>
+  <PREFIX>
+      <NAMESPACE>http://comicmeta.org/cbo/</NAMESPACE>
+      <LABEL>cbo</LABEL>
+  </PREFIX>
+
+
+  <SOURCE>
+    <ID>marvel_characters</ID>
+    <ENDPOINT>D:\MSc\Knowledge Graphs\individual\data\characters\output_marvel_characters.ttl</ENDPOINT>
+    <VAR>?y</VAR>
+    <PAGESIZE>5000</PAGESIZE>
+    <RESTRICTION>?y rdf:type cbo:Character</RESTRICTION>
+    <PROPERTY>foaf:name AS lowercase</PROPERTY>
+    <TYPE>TURTLE</TYPE>
+  </SOURCE>  
+
+  <TARGET>
+    <ID>characters</ID>
+    <ENDPOINT>D:\MSc\Knowledge Graphs\individual\data\characters\output_characters.ttl</ENDPOINT>
+    <VAR>?x</VAR>
+    <PAGESIZE>5000</PAGESIZE>
+    <RESTRICTION>?x rdf:type cbo:Character</RESTRICTION>
+    <PROPERTY>foaf:name AS lowercase</PROPERTY>
+    <TYPE>TURTLE</TYPE>
+  </TARGET>
+
+  <METRIC>
+    levenshtein(x.foaf:name, y.foaf:name)
+  </METRIC>
+
+  <ACCEPTANCE>
+    <THRESHOLD>0.99</THRESHOLD>
+    <FILE>limes_accepted_char.nt</FILE>
+    <RELATION>owl:sameAs</RELATION>
+  </ACCEPTANCE>
+  <REVIEW>
+    <THRESHOLD>0.50</THRESHOLD>
+    <FILE>limes_reviewme_char.nt</FILE>
+    <RELATION>skos:related</RELATION>
+  </REVIEW>
+
+  <EXECUTION>
+    <REWRITER>DEFAULT</REWRITER>
+    <PLANNER>DEFAULT</PLANNER>
+    <ENGINE>DEFAULT</ENGINE>
+  </EXECUTION>
+
+  <OUTPUT>N3</OUTPUT>
+
+</LIMES>
