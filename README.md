@@ -8,7 +8,9 @@ The aim is to build a graph about the Marvel Universe combining different datase
 
 The main steps of the project:
 
-<img src="./visualization/schema.png" width="800" />
+<p align = "center">
+<img src = "./visualization/schema.drawio.png" width="700">
+</p>
 
 * Relevant parts of the datasets are carefully selected.
 * After preprocessing, the data files are converted into RDF syntax, using different techniques (**RML, YARRRML, RDFlib**).
@@ -16,5 +18,9 @@ The main steps of the project:
 * Finally, 2 graphs are build in **GraphDB** from the TURTLE files. One shows the hero-network, and the other contains the information about which characters play in a certain movie, and what are the characteristics of these films and heroes. 
 * Using **SPARQL** on the mentioned graphs, we receive answers to some interesting questions.
 
-A snippet of the knowledge graph:
-<img src="./visualization/graphDB.png" width="800" />
+<p align = "center">
+<img src="./visualization/graphDB.png" width="700" />
+</p>
+<p align = "center">
+A snippet of the knowledge graph
+</p>
