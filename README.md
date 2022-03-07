@@ -15,9 +15,10 @@ The main steps of the project:
 
 Summary of the process:
 
-![Summary of the process](./visualization/schema.png)
+<img src="./visualization/schema.png" width="200" />
 
 
 
 A snippet of the knowledge graph:
-![A snippet of the knowledge graph](./visualization/graphDB.png)
+
+<img src="./visualization/graphDB.png" width="200" />)
