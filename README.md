@@ -15,10 +15,10 @@ The main steps of the project:
 
 Summary of the process:
 
-<img src="./visualization/schema.png" width="200" />
+<img src="./visualization/schema.png" width="600" />
 
 
 
 A snippet of the knowledge graph:
 
-<img src="./visualization/graphDB.png" width="200" />)
+<img src="./visualization/graphDB.png" width="600" />
