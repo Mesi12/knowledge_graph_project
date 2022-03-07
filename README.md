@@ -14,7 +14,9 @@ The main steps of the project:
 * Using **SPARQL** on the mentioned graphs, we receive answers to some interesting questions.
 
 Summary of the process:
+
 ![Summary of the process](./visualization/schema.png)
+
 
 
 A snippet of the knowledge graph:
